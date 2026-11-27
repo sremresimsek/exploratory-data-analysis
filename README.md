@@ -1,48 +1,16 @@
-# 📊 Exploratory Data Analysis (EDA)
+# Exploratory Data Analysis
 
-Bu repo, veri setlerini inceleyip anlamlandırmak için yaptığım **Exploratory Data Analysis (EDA)** çalışmalarını içermektedir.  
-Her çalışma; veri setinin yapısını inceleme, özet istatistik çıkarma, outlier analizi ve görselleştirme adımlarını içerir.
+Course-based Python notebooks for exploring tabular datasets. These are learning exercises, not independent research or production projects.
 
----
+| Study | Focus |
+| --- | --- |
+| [MPG](mpg/mpg_analysis.ipynb) | Missing values, distributions, outliers, correlations and feature relationships |
+| [Wine Quality](wine_quality/wine_quality_analysis.ipynb) | Distribution analysis, correlations and red/white wine comparisons |
 
-## 📁 İçerik
+## Run locally
 
-### **1. MPG Dataset**
-📂 `mpg/`  
-- `mpg.csv`  
-- `mpg_analysis.ipynb`
+Create a virtual environment, install `python -m pip install -r requirements.txt`, and open `python -m jupyter notebook`. Run each notebook from its own folder with its corresponding CSV. See [DATA_SOURCES.md](DATA_SOURCES.md).
 
-**Yapılanlar:**
-- Eksik değer analizi  
-- Sayısal değişkenlerin dağılımı  
-- Outlier tespiti  
-- Korelasyon matrisi  
-- Değişkenler arası ilişkilerin görselleştirilmesi  
+## Limitations
 
----
-
-### **2. Wine Quality Dataset**
-📂 `wine_quality/`  
-- `wine_quality.csv`  
-- `wine_quality_analysis.ipynb`
-
-**Yapılanlar:**
-- Kaliteyi etkileyen değişkenlerin analizi  
-- Dağılım grafiklerinin oluşturulması  
-- Outlier tespiti  
-- Korelasyon ısı haritası  
-- Kırmızı ve beyaz şarap karşılaştırmaları  
-
----
-
-## 🛠️ Kullanılan Teknolojiler
-- Python  
-- pandas  
-- NumPy  
-- Matplotlib  
-- Seaborn  
-
----
-
-## 🎯 Amaç
-Bu EDA çalışmaları; veri setlerini daha iyi anlamak, içgörü çıkarmak ve veri bilimi alanında pratik kazanmak amacıyla hazırlanmıştır.
+The notebook code and historical outputs are unchanged in this cleanup; the notebooks were too large to retrieve completely during review. Quantitative findings and runtime compatibility still require verification.
